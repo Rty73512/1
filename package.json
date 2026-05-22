@@ -1,0 +1,21 @@
+{
+  "name": "text-utils",
+  "version": "1.0.0",
+  "description": "Утилиты для работы с текстом",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^2.1.8",
+    "eslint": "^9.16.0",
+    "globals": "^17.6.0",
+    "vitest": "^2.1.8"
+  }
+}
